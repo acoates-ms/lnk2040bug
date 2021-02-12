@@ -1,8 +1,10 @@
-Attempt to build lnk2040.sln in the Release|ARM64 config:
-Result: 
+**Attempt to build lnk2040.sln in the Release|ARM64 config:**
 
-Issue repos using:
+**Result:**
 
+`ConsoleApplication1.obj : error LNK2040: relocation PAGEOFFSET_12L targeting '?name@?$TypeInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@dynamic@@2QEBDEB' (00001554) is invalid for the instruction (F9400128) at section 23 offset 2C`
+
+**Issue repos using:**
 
 Microsoft Visual Studio Community 2019 Preview
 Version 16.9.0 Preview 2.0
