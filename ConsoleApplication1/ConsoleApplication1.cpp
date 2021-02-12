@@ -6,8 +6,6 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-
     dynamic d;
     std::cout << d.get<std::string>();
 }
